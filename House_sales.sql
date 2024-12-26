@@ -1,7 +1,7 @@
 select distinct *
 from Portfolioproject.dbo.House_sales
 
---change the format for the datesold
+--change the datatype of the datesold
 Alter table Portfolioproject.dbo.House_sales
 Add Salesdate date
 
